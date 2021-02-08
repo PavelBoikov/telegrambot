@@ -1,27 +1,207 @@
 const COUNTRIES_LIST = `
-afghanistan, albania, algeria, andorra, angola, anguilla, antigua-and-barbuda, argentina, armenia, aruba, australia, austria, azerbaijan
-bahamas, bahrain, bangladesh, barbados, belarus, belgium, belize, benin, bermuda, bhutan, bolivia, bosnia-and-herzegovina, botswana, brazil, british-virgin-islands, brunei-darussalam, bulgaria, burkina-faso, burundi
-cabo-verde, cambodia, cameroon, canada, caribbean-netherlands, cayman-islands, central-african-republic, chad, channel-islands, chile, china, china-hong-kong-sar, china-macao-sar, colombia, congo, costa-rica, cote-d-ivoire, croatia, cuba, curacao, cyprus, czech-republic
-democratic-republic-of-the-congo, denmark, djibouti, dominica, dominican-republic
-ecuador, egypt, el-salvador, equatorial-guinea, eritrea, estonia, ethiopia
-faeroe-islands, falkland-islands-malvinas, fiji, finland, france, french-guiana, french-polynesia
-gabon, gambia, georgia, germany, ghana, gibraltar, greece, greenland, grenada, guadeloupe, guatemala, guinea, guinea-bissau, guyana
-haiti, holy-see, honduras, hungary
-iceland, india, indonesia, iran, iraq, ireland, isle-of-man, israel, italy
-jamaica, japan, jordan
-kazakhstan, kenya, kuwait, kyrgyzstan
-laos, latvia, lebanon, liberia, libya, liechtenstein, lithuania, luxembourg
-macedonia, madagascar, malawi, malaysia, maldives, mali, malta, martinique, mauritania, mauritius, mayotte, mexico, moldova, monaco, mongolia, montenegro, montserrat, morocco, mozambique, myanmar
-namibia, nepal, netherlands, new-caledonia, new-zealand, nicaragua, niger, nigeria, norway
-oman
-pakistan, panama, papua-new-guinea, paraguay, peru, philippines, poland, portugal
-qatar
-reunion, romania, russia, rwanda
-saint-barthelemy, saint-kitts-and-nevis, saint-lucia, saint-martin, saint-vincent-and-the-grenadines, san-marino, saudi-arabia, senegal, serbia, seychelles, sierra-leone, singapore, sint-maarten, slovakia, slovenia, somalia, south-africa, south-korea, spain, sri-lanka, state-of-palestine, sudan, suriname, swaziland, sweden, switzerland, syria
-taiwan, tanzania, thailand, timor-leste, togo, trinidad-and-tobago, tunisia, turkey, turks-and-caicos-islands
-uganda uk ukraine united-arab-emirates uruguay us uzbekistan
-venezuela, viet-nam
-zambia, zimbabwe
+Afghanistan,
+Albania,
+Algeria, 
+Andorra, 
+Angola, 
+Anguilla, 
+Antigua-and-barbuda, 
+Argentina, 
+Armenia, 
+Aruba, 
+Australia, 
+Austria, 
+Azerbaijan
+Bahamas, 
+Bahrain, 
+Bangladesh, 
+Barbados, 
+Belarus, 
+Belgium, 
+Belize, 
+Benin, 
+Bermuda, 
+Bhutan, 
+Bolivia, 
+Bosnia-and-herzegovina, 
+Botswana, 
+Brazil, 
+British-virgin-islands, 
+Brunei-darussalam, 
+Bulgaria, 
+Burkina-faso, 
+Burundi
+Cabo-verde, 
+Cambodia, 
+Cameroon, 
+Canada, 
+Caribbean-netherlands, 
+Cayman-islands, 
+Central-african-republic, 
+Chad, 
+Channel-islands, 
+Chile, 
+China, 
+China-hong-kong-sar, 
+China-macao-sar, 
+Colombia, congo, 
+Costa-rica, 
+Cote-d-ivoire, 
+Croatia, 
+Cuba, 
+Curacao, 
+Cyprus, 
+Czech-republic
+Democratic-republic-of-the-congo, 
+Denmark, 
+Djibouti, 
+Dominica, 
+Dominican-republic
+Ecuador, 
+Egypt,
+El-salvador, 
+Equatorial-guinea, 
+Eritrea, 
+Estonia, 
+Ethiopia
+Faeroe-islands, 
+Falkland-islands-malvinas, 
+Fiji, 
+Finland, 
+France, 
+French-guiana, 
+French-polynesia
+Gabon, 
+Gambia, 
+Georgia, 
+Germany, 
+Ghana, 
+Gibraltar, 
+Greece, 
+Greenland, 
+Grenada, 
+Guadeloupe, 
+Guatemala, 
+Guinea, 
+Guinea-bissau, 
+Guyana
+Haiti, 
+Holy-see, 
+Honduras, 
+Hungary
+Iceland, 
+India, 
+Indonesia, 
+Iran, 
+Iraq, 
+Ireland, 
+Isle-of-man, 
+Israel, 
+Italy
+Jamaica, 
+Japan, 
+Jordan
+Kazakhstan, 
+Kenya, 
+Kuwait, 
+Kyrgyzstan
+Laos, 
+Latvia, 
+Lebanon, 
+Liberia, 
+Libya, 
+Liechtenstein, 
+Lithuania, 
+Luxembourg
+Macedonia, 
+Madagascar, 
+Malawi, 
+Malaysia, 
+Maldives,
+Mali, 
+Malta, 
+Martinique, 
+Mauritania, 
+Mauritius, 
+Mayotte, 
+Mexico,
+Moldova, 
+Monaco, 
+Mongolia, 
+Montenegro, 
+Montserrat, 
+Morocco, 
+Mozambique, 
+Myanmar
+Namibia, 
+Nepal, 
+Netherlands, 
+New-caledonia, 
+New-zealand, 
+Nicaragua, 
+Niger, 
+Nigeria, 
+Norway
+Oman
+Pakistan, 
+Panama, 
+Papua-new-guinea, 
+Paraguay, peru, 
+Philippines, 
+Poland, 
+Portugal
+Qatar
+Reunion, 
+Romania, 
+Russia, 
+Rwanda
+Saint-barthelemy, 
+Saint-kitts-and-nevis, 
+Saint-lucia,
+Saint-martin, 
+Saint-vincent-and-the-grenadines, 
+San-marino, 
+Saudi-arabia, 
+Senegal, 
+Serbia, 
+Seychelles, 
+Sierra-leone, 
+Singapore, 
+Sint-maarten, 
+Slovakia, 
+Slovenia, 
+Somalia, 
+South-africa, 
+South-korea, 
+Spain, 
+Sri-lanka, 
+State-of-palestine, 
+Sudan, 
+Suriname, 
+Swaziland, 
+Sweden, 
+Switzerland, 
+Syria
+Taiwan, 
+Tanzania, 
+Thailand, 
+Timor-leste, 
+Togo, 
+Trinidad-and-tobago, 
+Tunisia, 
+Turkey, 
+Turks-and-caicos-islands
+Uganda, uk
+Ukraine 
+United-arab-emirates
+Uruguay
+Us 
+Uzbekistan
+Venezuela, 
+Viet-nam
+Zambia, 
+Zimbabwe
 `;
 
 module.exports = COUNTRIES_LIST;
+
